@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        Software Developer Job Application Form
+    </h2>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" required> <br> <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required> <br><br>
+            <label for="">Phone Number</label>
+            <input type="tel" name="" id="" required>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Job Details</legend>
+            <label for="">Position Applied for:</label>
+            <input type="text"list="role" name="" id="" value="Software Developer">
+            <datalist id="role">
+                <option value="React Developer"></option>
+                <option value="Software Intern"></option>
+                <option value="Software Engineer"></option>
+            </datalist> <br><br>
+            <label for="">Years of Experience</label>
+            <input type="number" name="" id=""> <br><br>
+            <label for="skills">Technical skills:</label>
+            <input type="text" list="options" multiple>
+            <datalist id="options" >
+                <option value="html"></option>
+                <option value="css"></option>
+                <option value="js"></option>
+                <option value="java"></option>
+                <option value="python"></option>
+                <option value="sql"></option>
+                <option value="react"></option>
+                <option value="bootstrap"></option>
+            </datalist> <br><br>
+            <label for="">Preferred Location:</label>
+            <select >
+                <option value="Hybrid">Hybrid</option>
+                <option value="Remote">Remote</option>
+                <option value="WFH">Work From Home</option>
+            </select> <br><br>
+            <label for="">Upload Resume:</label>
+                <input type="file" name="" id="" required>
+        </fieldset> <br>
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>
